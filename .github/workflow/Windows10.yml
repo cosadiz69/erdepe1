@@ -25,12 +25,12 @@ jobs:
         NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
     - name: Download Laucher
       run: |
-        Invoke-WebRequest https://github.com/TranCongVinh1/VPS/blob/main/launcher/Visual%20Studio%202019.Lnk?raw=true -OutFile "Visual Studio 2019.lnk"
-        Invoke-WebRequest https://github.com/TranCongVinh1/VPS/blob/main/launcher/Node.js.Lnk?raw=true -OutFile Node.js.lnk
-        Invoke-WebRequest https://raw.githubusercontent.com/TranCongVinh1/VPS/main/bat/loop.bat -OutFile loop.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/TranCongVinh1/VPS/main/bat/user.bat -OutFile user.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/TranCongVinh1/VPS/main/bat/start.bat  -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/TranCongVinh1/VPS/main/bat/cpuinfo.bat -OutFile cpuinfo.bat
+        Invoke-WebRequest https://github.com/cosadiz69/erdepe1/blob/main/launcher/Visual%20Studio%202019.Lnk?raw=true -OutFile "Visual Studio 2019.lnk"
+        Invoke-WebRequest https://github.com/cosadiz69/erdepe1/blob/main/launcher/Node.js.Lnk?raw=true -OutFile Node.js.lnk
+        Invoke-WebRequest https://raw.githubusercontent.com/cosadiz69/erdepe1/main/bat/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/cosadiz69/erdepe1/main/bat/user.bat -OutFile user.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/cosadiz69/erdepe1/main/bat/start.bat  -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/cosadiz69/erdepe1/main/bat/cpuinfo.bat -OutFile cpuinfo.bat
     - name: Make YML file for NGROK.
       run: start start.bat
     - name: Enable RDP Access.
